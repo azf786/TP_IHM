@@ -1,0 +1,466 @@
+/*Reset CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+html{
+	font-family: 'Indie Flower', cursive;
+}
+
+p{
+	text-align: justify;
+	text-align: center;
+}
+
+h1, h2, h3, h4{
+	font-weight: bold;
+}
+
+h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+}
+
+h2{
+	font-size: 25px;
+}
+
+ol{
+	list-style-type: lower-alpha;
+}
+
+ul{
+	list-style-type: inside;
+}
+
+a{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+
+#main{
+	width: auto;
+	margin: auto;
+}
+
+
+header{
+	background-color: white;
+}
+
+#logoCitron{
+	display: block;
+	margin: auto;
+}
+
+body {
+	background-color: #fcea02;
+}
+
+
+
+#navDesktop{
+	display: none;
+}
+
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position: relative;
+}
+
+.topnav #myLinks {
+	display: none;
+}
+
+.topnav a {
+	color: #fcea02;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+}
+
+.topnav a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 40px;
+}
+
+.topnav a.icon:hover {
+	color: black;
+}
+
+.active {
+	background-color: white;
+}
+
+
+
+#QuiSommeNous{
+	display: inline-block;
+	padding: 50px 50px 0px 50px;
+}
+
+#QuiSommeNous h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#bottomText{
+	margin-top: 25px;
+}
+
+#imageQSN{
+	display: flex;
+	justify-content: space-between;
+}
+
+.imageDeco{
+	height: 20%;
+	width: 20%;
+	align-self: flex-end;
+}
+
+
+
+#Presentation{
+	display: inline-block;
+	background-image: url(../images/background1Mobile.jpg);
+	background-size: cover;
+	padding: 50px 50px;
+}
+
+#Presentation h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+
+#InscriptionEvent{
+	
+}
+
+#Evenement{
+	padding-top: 50px;
+	margin: 0px 25px;
+}
+
+#Evenement h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.iframeContainer{
+	position: relative;
+	overflow: hidden;
+	padding-top: 75.25%;
+	background-color: black;
+}
+
+.iframeContainer iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+
+#Inscrire{
+	padding: 50px 0px;
+	margin: 0px 25px;
+}
+
+#Inscrire h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#formulaire{
+	border-radius: 5px;
+	padding: 20px;
+	background-image: url(../images/imageFormulaire.jpg);
+	background-size: cover;
+}
+
+input[type=text], input[type=email], input[type=tel], select{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=checkbox]{
+	width: 20px;
+	padding: 12px 20px;
+	margin: 8px 0px;
+}
+
+input[type=button] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	margin: 6px 0px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+}
+
+input[type=reset] {
+	width: 100%;
+	background-color: #dd4132;
+	color: white;
+	padding: 10px;
+	margin: 6px 0px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
+
+input[type=reset]:hover {
+  background-color: #c52e20;
+}
+
+
+
+footer{
+	padding: 10px 10px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+#footerLogo{
+	display: flex;
+	flex-direction: row;
+}
+
+#footerLogo h1{
+	align-self: flex-end;
+	padding-left: 15px;
+}
+
+#logoFooter{
+	height: 60px; 
+	width: 49px;
+	padding-right: 10px;
+	border-right: 1px solid;
+}
+
+#footerLink{
+	align-self: flex-end;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #C13584;
+  color: white;
+}
+
+
+@media screen and (min-width: 768px){
+		
+	p{
+		font-size: 28px;
+		line-height: 35px;
+	}
+
+	h1, h2, h3, h4{
+		font-weight: bold;
+	}
+
+	h1{
+		padding-bottom: 35px;
+		font-size: 50px;
+	}
+
+	h2{
+		font-size: 25px;
+		padding: 30px;
+		font-family: sans-serif;
+	}
+
+	#navMobile{
+		display: none;
+	}
+
+	#navDesktop{
+		padding: 10px 10px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-content: center;
+		background-color: #333;
+	}
+
+	a{
+		font-size: 20px;
+		color: #fcea02;
+	}
+
+	#myLinks{
+		display: none;
+	}
+
+	.icon{
+		display: none;
+	}
+
+	#QuiSommeNous{
+		padding: 100px 100px 0px 100px;
+	}
+
+	#combavaSite{
+		color: black;
+	}
+
+	#Presentation{
+		padding: 100px 100px;
+		display: inline-block;
+		background-image: url(../images/background1.jpg);
+		background-size: contain;
+		height: 500px;
+	}
+
+	#InscriptionEvent{
+		display: flex;
+		padding: 50px 50px;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	#Evenement{
+		width: 50%;
+		padding: 50px 0px;
+	}
+
+	#Inscrire{
+		width: 50%;
+		padding: 50px 0px;
+	}
+
+	#Evenement h1{
+		text-align: center;
+	}
+
+	#Inscrire h1{
+		text-align: center;
+	}
+
+	input[type=button] {
+		width: 49%;
+		background-color: #4CAF50;
+		color: white;
+		padding: 8px;
+		margin: 6px 0px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 25px;
+	}
+
+	input[type=reset] {
+		width: 49%;
+		background-color: #dd4132;
+		color: white;
+		padding: 8px;
+		margin: 6px 0px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 25px;
+	}
+	
+
+	footer{
+		padding: 10px 10px;
+	}
+
+	#logoFooter{
+	height: 100px; 
+	width: 89px;
+}
+
+}

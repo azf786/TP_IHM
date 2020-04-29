@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="icon" type="img/png" href="./images/logoOnglet.png" sizes="24x25">
+		<link rel="stylesheet" href="./styles/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<script src="./scripts/syntaxe.js"></script>
+		<title>Davids Lemonade</title>
+	</head>
+
+
+	<body>
+		<div id="main">
+			<header class="container">
+				 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+				 	<div class="topnav">
+				    	<a href="#home" class="active">
+				    		<img id="logoCitron" src="./images/logoDavids.png" alt="logoDavids" height="116" width="105">
+				    	</a>
+				    	<nav id="navMobile">
+					    	<div id="myLinks">
+						    	<a href="#QuiSommesNous">Qui Somme Nous ?</a>
+						    	<a href="#Presentation">Présentation</a>
+						    	<a href="#Evenement">Liste des évènements</a>
+						    	<a href="#Inscrire">S'inscrire</a>
+					    	</div>
+
+						    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						    	<i class="fa fa-bars"></i>
+						    </a>
+						</nav>
+
+						<nav id="navDesktop">
+						  	<a href="#QuiSommesNous">Qui Somme Nous ?</a>
+						  	<a href="#Presentation">Présentation</a>
+						  	<a href="#Evenement">Liste des évènements</a>
+						  	<a href="#Inscrire">S'inscrire</a>
+						</nav>
+				    </div>
+			</header>
+
+
+			<div id="QuiSommeNous">
+				<h1>Qui Sommes-Nous ?</h1>
+				<p>L’association Combava est une association dans le secteur agricole, elle regroupe des producteurs d’agrumes indépendants. Elle a pour but de faciliter la distribution des produits de ses producteurs membres aux près de la grande distribution et des magasins locaux.</p>
+				<p>Elle est la garantie aux près du consommateur de la qualité du produit qu’il consomme.</p>
+				<p id="bottomText">Pour plus d'informations, visiter notre site : <a id="combavaSite" href="http://www.combava.com">www.combava.com</a></p>
+				<div id="imageQSN">
+					<img class="imageDeco" alt="image de citron" src="./images/citron.png">
+					<img class="imageDeco" alt="image de limonade " src="./images/limonade.png">
+				</div>
+			</div>
+
+			<div id="Presentation">
+				<h1>Présentation des Dégustations</h1>
+				<p>Dans le cadre de la découverte de ses produits, l’association Combava organise des dégustations de citronnade tout autour du pays. Ces dégustations mettent en valeur nos produits locaux et bio.</p>
+				<p>Ces évènements sont ouverts. Inscrivez-vous sur le site pour pouvoir accéder à ces évènements </p>
+			</div>
+
+			<div id="InscriptionEvent">
+				<div id="Evenement">
+					<h1>Liste des Évènements</h1>
+					<div class="iframeContainer">
+						<iframe src="https://www.google.com/maps/d/embed?mid=1dfBAOXFGSI6Hk-C956L7xTPpn-qrFc9o"></iframe>
+					</div>
+				</div>
+
+				<div id="Inscrire">
+					<h1>S'inscrire</h1>
+					<div id="formulaire">
+						<form method="post">
+							<label id="name">Nom :</label>
+							<input type="text">
+
+							<label id="lastname">Prénom :</label>
+							<input type="text">
+
+							<label id="mail">E-mail :</label>
+							<input type="email">
+
+							<label id="phone">Numéro de téléphone :</label>
+
+							<input type="tel" pattern="[0-9]{10}" required>
+
+							<label id="event">Évènements :</label>
+							<select>
+								<option value="tourcoin">Artisans du Monde - Tourcoin</option>
+								<option value="rennes">Bio-Rennes</option>
+								<option value="paris">Canal Bio</option>
+								<option value="nancy">Bio c' Bon</option>
+								<option value="besancon">L'Eau Vive Besançon</option>
+								<option value="saintjunien">Biocoop Saint-Junien</option>
+								<option value="valence">AMAP Le Goût Nature de Bourg-les-Valence</option>
+								<option value="toulouse">AMAP Toulouse</option>
+							</select>
+
+							<input type="checkbox">Inscrivez-vous pour recevoir par e-mail toutes les informations.
+
+							<input type="button" value="Valider">	
+							<input type="reset" value="Annuler">
+						</form>
+					</div>	
+				</div>
+			</div>
+
+			<footer>
+				<div id="footerLogo">
+					<img id="logoFooter" src="./images/logoDavids.png" alt="logoDavids" height="100" width="89">
+					<h1>Association Combava</h1>
+				</div>
+
+				<div id="footerLink">
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-instagram"></a>
+				</div>
+
+			</footer>
+
+		</div>
+	</body>
+
+</html>
